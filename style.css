@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: white;  
     
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    color: #000000;
+    font: Trebuchet;
 }
 
 
