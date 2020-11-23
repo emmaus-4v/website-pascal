@@ -18,7 +18,6 @@ main {
 
 
 article {
-    text-align: justify;
 }
 
 
@@ -62,18 +61,25 @@ nav ul {
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
+    margin-left: 75%;
+    width: 25%;
 }
 
 nav ul li {
-    float: left;
+    float: right;
+    
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
+    margin: 20px;
     text-decoration: none;
+    position: relative;
+    float: right;
+    width: 100px;
 }
 
 nav li a:hover {
