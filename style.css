@@ -55,14 +55,18 @@ a:hover {
 
 
 /* navigatiebalk */
+nav {
+    margin-left: 75%;
+    width: 25%;
+    
+}
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
-    margin-left: 75%;
-    width: 25%;
+
 }
 
 nav ul li {
