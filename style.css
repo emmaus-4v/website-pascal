@@ -12,7 +12,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    max-width: 700px;
     position: relative;
 }
 
@@ -22,8 +22,11 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(0, 0, 0);
     text-align: center;
+    background-image: url('https://cab71785-e707-446f-a70d-cdd4b270713a.ws-eu01.gitpod.io/mini-browser/workspace/website-pascal/afbeeldingen/SuperSmashBRos.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
 }
 
 
@@ -58,14 +61,15 @@ a:hover {
 nav {
     margin-left: 75%;
     width: 25%;
-    
+    background-image: url('SuperSmashBRos.png');
+
 }
+
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+    overflow: none;
 
 }
 
@@ -76,7 +80,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     margin: 20px;
