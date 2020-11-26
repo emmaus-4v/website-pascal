@@ -1,17 +1,16 @@
 /* Basislayout */
 
 html, body {
-    height: 100%;
+    width: 100%;
     padding: 0;
-    background-color: white;  
-    
+    background-color: rgb(255, 255, 255);  
     color: #000000;
-    font: Trebuchet;
+    font-family: Trebuchet, sans-serif;
 }
 
 
 main {
-    margin: 0 auto;
+    margin: auto;
     max-width: 700px;
     position: relative;
 }
@@ -22,12 +21,14 @@ article {
 
 
 header {
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     background-image: url('https://cab71785-e707-446f-a70d-cdd4b270713a.ws-eu01.gitpod.io/mini-browser/workspace/website-pascal/afbeeldingen/SuperSmashBRos.png');
     background-repeat: no-repeat;
     background-size: 700px;
+
 }
+
 
 
 footer {
@@ -37,6 +38,12 @@ footer {
 
 
 /* specifieke stijlen */
+
+#hoofdtitel {
+    background-color: #000000;
+    margin: 0px 50px;
+    padding: 5px;
+}
 
 img.zweefLinks {
     float: left;
@@ -59,10 +66,11 @@ a:hover {
 
 /* navigatiebalk */
 nav {
-    margin-left: 75%;
+    float: right;
     width: 25%;
-    background-image: url('SuperSmashBRos.png');
-
+    height: 515px;
+    margin: 20px 0px 0px 20px;
+    background-color: rgb(233, 233, 233);
 }
 
 nav ul {
@@ -91,11 +99,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(228, 248, 255);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(228, 248, 255);
 }
 
 
