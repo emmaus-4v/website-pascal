@@ -6,6 +6,7 @@ html, body {
     background-color: rgb(255, 255, 255);  
     color: #000000;
     font-family: Trebuchet, sans-serif;
+    font-size: 105%;
 }
 
 
@@ -34,22 +35,25 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
-/* specifieke stijlen */
+/* Polariod Stylen */
 
 div.polaroid {
   width: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin: 20px;
 }
 
 div.container {
   text-align: center;
   padding: 10px 20px;
 }
+
+/* Specifieke Stylen */
 
 #hoofdtitel {
     background-color: #000000;
