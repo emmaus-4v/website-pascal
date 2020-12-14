@@ -1,3 +1,38 @@
+/* keyframes */
+
+@keyframes pulse {
+  0%, 100% {
+    color: red;
+  }
+  10% {
+    color: orange;
+  }
+  20% {
+    color: yellow;
+  }
+  30% {
+    color: greenyellow;
+  }
+  40% {
+    color: green;
+  }
+  50% {
+    color: lightblue;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: purple;
+  }
+  80% {
+    color: magenta;
+  }
+  90% {
+    color: rgb(255, 109, 134);
+  }
+}
+
 /* Basislayout */
 
 html, body {
@@ -14,10 +49,7 @@ main {
     margin: auto;
     max-width: 700px;
     position: relative;
-}
-
-
-article {
+    
 }
 
 
@@ -27,10 +59,7 @@ header {
     background-image: url('afbeeldingen/SuperSmashBRos.png');
     background-repeat: no-repeat;
     background-size: 700px;
-
 }
-
-
 
 footer {
     text-align: center;
@@ -59,6 +88,7 @@ div.container {
     background-color: #000000;
     margin: 0px 50px;
     padding: 5px;
+    animation: pulse 3s ease infinite alternate;
 }
 
 img.zweefLinks {
@@ -99,10 +129,6 @@ nav ul {
     
 }
 
-nav ul li {
-
-}
-
 nav li a {
     display: block;
     color: rgb(0, 0, 0);
@@ -122,7 +148,4 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(228, 248, 255);
 }
-
-
-
 
