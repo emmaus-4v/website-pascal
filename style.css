@@ -91,6 +91,10 @@ div.container {
     animation: pulse 3s ease infinite alternate;
 }
 
+.BoldText {
+    font-weight: bold;
+}
+
 img.zweefLinks {
     float: left;
     margin-right: 15px;
